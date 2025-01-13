@@ -3,5 +3,5 @@ a = int(input())
 b = int(input())
 #P = a*b
 #print(P)
-
-print(a*b)
+area = a * b
+print(area)

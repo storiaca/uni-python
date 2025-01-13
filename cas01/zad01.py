@@ -1,1 +1,1 @@
-print("Zdravo, svete!")
+print('Hello SoftUni')
