@@ -18,3 +18,21 @@ elif (type_projection == "Normal"):
 elif(type_projection == "Discount"):
     income = (rows * columns) * 5.00
 print(f"{income:.2f} USD")
+
+# drugi nacin
+tip_projekcije = input()
+redovi = int(input()) 
+kolone = int(input())
+
+broj_mesta = redovi * kolone
+cena_sedista = 0.00
+
+if tip_projekcije == "Premiere":
+    cena_sedista = 12.00 
+elif tip_projekcije == "Normal":
+    
+    cena_sedista = 7.50
+elif tip_projekcije == "Discount":
+    cena_sedista = 5.00
+
+print(f"{broj_mesta * cena_sedista:.2f} USD")
