@@ -36,3 +36,18 @@ elif tip_projekcije == "Discount":
     cena_sedista = 5.00
 
 print(f"{broj_mesta * cena_sedista:.2f} USD")
+
+# nacin za recnicima
+tip_projekcije = input()
+redovi = int(input()) 
+kolone = int(input())
+
+broj_mesta = redovi * kolone
+
+r = {
+    "Premiere": 12.00,  
+    "Normal": 7.50,
+    "Discount": 5.00
+}
+
+print(f"{broj_mesta * r.get(tip_projekcije, 0.00):.2f} USD")
