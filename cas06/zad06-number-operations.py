@@ -8,6 +8,8 @@ operator = input()
 
 if(operator == '+'):
     result = n1 + n2
+    # result = "even" if result % 2 == 0 else "odd"
+    
     if(result % 2 == 0):
         print(f'{n1} + {n2} = {result} - even')
     else:
