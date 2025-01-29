@@ -17,8 +17,6 @@ if((month == "May") or (month == "October")):
         price_studio = (70/100) * price_studio
         price_apartment = (90 / 100) * price_apartment
 
-    print(f'Apartment: {price_apartment:.2f} USD.')
-    print(f'Studio: {price_studio:.2f} USD.')
 elif ((month == "June") or (month == "September")):
     price_studio = number_of_nights * 75.20
     price_apartment = number_of_nights * 68.70
@@ -26,13 +24,11 @@ elif ((month == "June") or (month == "September")):
         price_studio = (80 / 100) * price_studio
         price_apartment = (90 / 100) * price_apartment
 
-    print(f'Apartment: {price_apartment:.2f} USD.')
-    print(f'Studio: {price_studio:.2f} USD.')
 elif ((month == "July") or (month == "August")):
     price_studio = number_of_nights * 76
     price_apartment = number_of_nights * 77
     if (number_of_nights > 14):
         price_apartment = (90 / 100) * price_apartment
 
-    print(f'Apartment: {price_apartment:.2f} USD.')
-    print(f'Studio: {price_studio:.2f} USD.')
+print(f'Apartment: {price_apartment:.2f} USD.')
+print(f'Studio: {price_studio:.2f} USD.')
