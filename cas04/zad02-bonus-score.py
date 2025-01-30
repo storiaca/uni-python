@@ -13,7 +13,7 @@ number = int(input())
 bonus = 0.0
 
 if number <= 100:
-     bonus = 5
+     bonus = 5.0
 elif number > 1000:
     bonus = number * 0.1
 else:
