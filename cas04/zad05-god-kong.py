@@ -28,3 +28,28 @@ if (movie_budget >= payment):
 else: # inace, movie_budget < payment
     print("Not enough money!")
     print(f"Wingard needs {(payment - movie_budget):.2f} USD more.")
+
+'''
+Moje resenje:
+'''
+# budget = float(input())
+# number_of_extras = int(input())
+# price_clothing = float(input())
+
+# price_clothing_extras = number_of_extras * price_clothing
+
+# # cena seta je 10% od budzeta
+# set_budget = (10/100) * budget
+
+# if number_of_extras > 150:
+#     # 100 - 10 = 90 posto cene odela koju treba da platimo
+#     price_clothing_extras = (90/100) * price_clothing_extras
+
+# # ukupno treba da platimo
+# total_price = set_budget + price_clothing_extras
+# if(budget >= total_price):
+#     print("Action!")
+#     print(f'Wingard starts filming with {(budget - total_price):.2f} USD left.')
+# else:
+#     print("Not enough money!")
+#     print(f'Wingard needs {(total_price - budget):.2f} USD more.')
