@@ -18,3 +18,7 @@ n = int(input())
 
 for i in range(0, n+1, 2):
     print(2**i) # 2^i is not the same as 2**i, it is the XOR operator, which is not what we want here. We should use 2**i instead.
+
+# ako zelimo da budemo sigurni da broj u range, mozemo da stavimo n+2, ili plus korak
+# for i in range(start, poslednji koji zelim + korak, korak):
+# ovo je najbolje resenje za for, jer je najispravnije, ali moze da se koristi i range(0, n+1, 2) za ovaj primer
