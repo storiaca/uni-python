@@ -35,3 +35,17 @@ r = {
 for letter in text:
     sum += r.get(letter, 0)
 print(sum)
+
+# resenje sa casa sa if-elif klasina petlja
+for letter in range(0, len(text)):
+    if text[letter] == 'a':
+        sum += 1
+    elif text[letter] == 'e':
+        sum += 2
+    elif text[letter] == 'i':
+        sum += 3
+    elif text[letter] == 'o':
+        sum += 4
+    elif text[letter] == 'u':
+        sum += 5
+print(sum)
