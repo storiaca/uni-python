@@ -6,6 +6,7 @@ Write a program that reads n number of integers entered by the user and checks i
 '''
 num = int(input())
 
+#max_num = -sys.maxsize
 max_num = -99999999999
 sum_num = 0
 for i in range(num):
@@ -13,7 +14,7 @@ for i in range(num):
     if(x > max_num):
         max_num = x
     sum_num += x
-    
+
 # da li je suma preostalix brojeva jednaka maksimumu
 if(sum_num - max_num == max_num):
     print('Yes')
