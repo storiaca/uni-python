@@ -23,3 +23,26 @@ if(salary <= 0):
     print("You have lost your salary.")
 else:
     print(salary)
+
+# resenje sa casa sa break statementom
+number_tabs = int(input())
+salary = int(input())
+
+break_loop = False
+
+for i in range(number_tabs): # number_tabs puta citamo nazive sajtova i redujkujemo platu
+    tab = input()
+    if(tab == "Facebook"):
+        salary -= 150
+    elif(tab == "Instagram"):
+        salary -= 100
+    elif(tab == 'Reddit'):
+        salary -= 50
+    if salary <= 0:
+        break_loop = True
+        break
+
+if(break_loop):
+    print("You have lost your salary.")
+else:
+    print(salary)
