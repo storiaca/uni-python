@@ -24,3 +24,20 @@ else:
   dan = 'Error'
 
 print(dan)
+
+# resenje sa recnikom
+r = {
+    "Monday": "Working day",
+    "Tuesday": "Working day",
+    "Wednesday": "Working day",
+    "Thursday": "Working day",
+    "Friday": "Working day",
+    "Saturday": "Weekend",
+    "Sunday": "Weekend"
+}
+
+user_input = input()
+
+a = r.get(user_input, 'Error')
+
+print(a)
