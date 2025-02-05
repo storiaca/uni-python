@@ -17,3 +17,27 @@ num = int(input())
 result = r.get(num, 'Error')
 
 print(result)
+
+# resenje sa if-else
+broj = int(input())
+
+dan = ''
+
+if broj == 1: 
+  dan = 'Monday'
+elif broj == 2: 
+  dan = 'Tuesday'
+elif broj == 3:
+  dan = 'Wednesday'
+elif broj == 4:
+  dan = 'Thursday'
+elif broj == 5:
+  dan = 'Friday'
+elif broj == 6:
+  dan = 'Saturday'
+elif broj == 7:
+  dan = 'Sunday'
+else: 
+  dan = 'Error'
+
+print(dan)
