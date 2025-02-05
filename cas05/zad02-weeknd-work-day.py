@@ -25,7 +25,7 @@ else:
 
 print(dan)
 
-# resenje sa recnikom
+# resenje sa recnikom koje traje duze i trose vise memorije
 r = {
     "Monday": "Working day",
     "Tuesday": "Working day",
