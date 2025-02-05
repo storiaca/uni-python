@@ -21,3 +21,17 @@ else:
     animal_type = 'unknown'
 
 print(animal_type)
+
+# resenje sa recnikom
+r = {
+    "dog": "mammal",
+    "crocodile": "reptile",
+    "tortoise": "reptile",
+    "snake": "reptile",
+}
+
+user_animal = input()
+
+result = r.get(user_animal, 'unknown')
+
+print(result)
