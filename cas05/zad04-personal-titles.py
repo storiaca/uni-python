@@ -17,3 +17,18 @@ elif (age < 16 and gender == 'f'):
     print("Miss")
 elif age >= 16 and gender == 'f':
     print("Ms.")
+
+# sa casa resenje
+godine = float(input())
+pol = input()
+
+if(pol == 'f'):
+    if(godine < 16):
+        print("Miss")
+    else:
+        print("Ms.")
+elif (gender == 'm'):
+    if (godine < 16):
+        print("Master")
+    else:
+        print("Mr.")
