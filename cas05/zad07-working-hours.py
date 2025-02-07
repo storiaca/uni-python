@@ -24,3 +24,19 @@ if 10 <= hour <= 18:
 else:
     work_output = "closed"
 print(work_output)
+
+## sa casa
+if (dan != "Sunday" and  10<= sati <= 18):
+    print("open")
+else:
+    print("closed")
+
+"""
+napredno: 
+lista = ["Monday", "Tuesday", "Thursday", "Wednesday", "Friday", "Sunday"]
+if (dan in lista and 10 <= sati<=18):
+    print("open")
+else:
+    print("closed")
+
+"""
