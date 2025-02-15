@@ -13,3 +13,18 @@ while True:
     if number_min > num:
         number_min = num  # number_min = min(number_min, num) - alternativno  resenje     
 print(number_min) # print(f"{number_min}") - alternativno resenje
+
+# resenje sa while petljom drugin nacin
+
+linija = ""
+minn = 9999999999999
+
+linija = input()
+
+while linija != "Stop":
+    linija = int(linija)
+    if minn > linija:
+        minn = linija
+    linija = input()
+
+print(minn)
