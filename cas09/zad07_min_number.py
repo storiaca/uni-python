@@ -14,9 +14,9 @@ while True:
         number_min = num  # number_min = min(number_min, num) - alternativno  resenje     
 print(number_min) # print(f"{number_min}") - alternativno resenje
 
-# resenje sa while petljom drugin nacin
+# resenje sa while petljom drugi nacin
 
-linija = ""
+#linija = ""
 minn = 9999999999999
 
 linija = input()
