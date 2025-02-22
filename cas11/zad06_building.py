@@ -21,4 +21,7 @@ for i in range(floors,0,-1):
                 print(f"O{i}{j}", end=" ")
             else:
                 print(f"A{i}{j}", end=" ")
-    print("")
+    print("") # prelazak u novi red
+# Test with: 3, 4
+# Test with: 6, 4
+# Test with: 1, 4
