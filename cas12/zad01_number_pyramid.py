@@ -32,3 +32,19 @@ for i in range(1, n+1): # redovi su 1,2,3 ...n
     print("")
     if un_petlja_prekinuta:
         break
+
+# link za efikasniji kod
+# https://chatgpt.com/share/67bb3310-6730-8012-b2a8-a6125e7ff0f8
+
+num = int(input())
+curr = 1
+
+i = 1
+while curr <= num:
+    for _ in range(i):
+        if curr > num:
+            break
+        print(curr, end=' ')
+        curr += 1
+    print()
+    i += 1
