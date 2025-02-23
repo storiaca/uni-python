@@ -16,3 +16,19 @@ for i in range(1, num + 1):
     if is_curr_bigger_than_num:
         break
     print()      
+# resenje sa casa
+
+n = int(input())
+trenutni_broj = 0
+
+un_petlja_prekinuta = False
+for i in range(1, n+1): # redovi su 1,2,3 ...n
+    for j in range(1, i+1): # imamo i brojeva u tom redu
+        trenutni_broj += 1
+        if(trenutni_broj > n):
+            un_petlja_prekinuta = True
+            break
+        print(f"{trenutni_broj}", end=" ")
+    print("")
+    if un_petlja_prekinuta:
+        break
