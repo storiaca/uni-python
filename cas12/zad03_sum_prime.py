@@ -34,3 +34,33 @@ while True:
 
 print(f"Sum of all prime numbers is: {sum_prime}")
 print(f"Sum of all non prime numbers is: {sum_non_prime}")
+
+# resenje sa if else
+line = ""
+sum_prime = 0
+sum_non_prime = 0
+
+while True:
+    line = input()
+    if line == "stop":
+        break
+    num = int(line)
+
+    if num < 0:
+        print("Number is negative.")
+
+    elif num == 1:
+        sum_non_prime += 1
+    else:
+        is_prime = True
+        for i in range(2, num): # 2,3,4,5... num-1
+            if (num % i == 0):
+                is_prime = False
+                break
+        if(is_prime):
+            sum_prime += num
+        else:
+            sum_non_prime += num
+
+print(f"Sum of all prime numbers is: {sum_prime}")
+print(f"Sum of all non prime numbers is: {sum_non_prime}")
