@@ -36,6 +36,8 @@ print(f"Sum of all prime numbers is: {sum_prime}")
 print(f"Sum of all non prime numbers is: {sum_non_prime}")
 
 # resenje sa if else
+import math
+
 line = ""
 sum_prime = 0
 sum_non_prime = 0
@@ -53,7 +55,8 @@ while True:
         sum_non_prime += 1
     else:
         is_prime = True
-        for i in range(2, num // 2 + 1): # 2,3,4,5..., num // 2 + 1
+        #for i in range(2, num // 2 + 1): # 2,3,4,5..., num // 2 + 1
+        for i in range(math.floor(math.sqrt(num)) + 1): # 2,3,4,5..., sqrt(num) + 1
             if (num % i == 0):
                 is_prime = False
                 break
