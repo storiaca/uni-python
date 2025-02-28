@@ -1,5 +1,12 @@
-# Food Delivery
-
+'''
+6. Food Delivery
+The restaurant opens its doors and offers several menus at preferential prices: 
+    • Chicken menu – 10.35 USD. 
+    • Fish menu – 12.40 USD. 
+    • Vegetarian menu – 8.15 USD. 
+The group will also order a dessert, the price of which is equal to 20% of the total bill (excluding delivery).
+The delivery price is 2.50 USD and is finally charged. 
+'''
 chicken_menu_price = 10.35
 fish_menu_price = 12.40
 vegan_menu_price = 8.15
