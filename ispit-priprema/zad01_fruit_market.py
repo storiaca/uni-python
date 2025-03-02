@@ -41,4 +41,21 @@ total_price = price_strawberries * num_s + price_r * num_r + price_b * num_b + p
 
 print(f"{total_price:.2f}")
 
+import math
+minutes = int(input())
+seconds = int(input())
+length_chute = float(input())
+seconds_100_meters = int(input())
+
+control_seconds = minutes * 60 + seconds
+time_decrease = length_chute / 120
+total_time_decrease = time_decrease * 2.5
+malcolm_time = (length_chute / 100) * math.floor(time_decrease) - total_time_decrease
+
+if malcolm_time <= control_seconds:
+    print(f"Malcolm Davidson won an Olympic quota!")
+    print(f"His time is {malcolm_time:.3f}.")
+else:
+    print(f"No, Malcolm failed! He was {(malcolm_time - control_seconds):.3f} second slower.")
+
 
