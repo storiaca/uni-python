@@ -1,5 +1,5 @@
 '''
-Favorite Movie
+6. Favorite Movie
 It's Friday night and you're wondering which movie to watch. You decide to write a program that will make the choice for you. Until the command "STOP" is received, you will receive titles of your favorite movies. The best movie for you will be the one with the highest score. The score is calculated as the sum of the ASCII values of the characters in the movie title. (There will be no case of two movies with equal scores).
     • For each lowercase letter in the title, its value should be reduced by twice the length of the movie title.
     • For each uppercase letter in the title, its value should be reduced by the length of the movie title.
